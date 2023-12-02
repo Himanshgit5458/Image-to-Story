@@ -1,7 +1,6 @@
 from transformers import pipeline
 import openai
 
-# openai.api_key = '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'
 
 from langchain.prompts import PromptTemplate
 from langchain.chains import LLMChain
@@ -12,7 +11,8 @@ import requests
 
 import streamlit as st
 
-key="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"
+
+
 
 def img2text(url):
     # Use a pipeline as a high-level helper
