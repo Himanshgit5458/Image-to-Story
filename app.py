@@ -1,7 +1,7 @@
 from transformers import pipeline
 import openai
 
-openai.api_key = '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'
+# openai.api_key = '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'
 
 from langchain.prompts import PromptTemplate
 from langchain.chains import LLMChain
